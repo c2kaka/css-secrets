@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .hori-half-ellipse-top {
+      width: 100px;
+      height: 100px;
+      border-radius: 50% / 100% 100% 0 0;
+      background: #fb3;
+    }
+
+    .hori-half-ellipse-bottom {
+      width: 100px;
+      height: 100px;
+      border-radius: 50% / 0 0 100% 100%;
+      background: #fb3;
+    }
+
+    .verti-half-ellipse-left {
+      width: 100px;
+      height: 100px;
+      border-radius: 100% 0 0 100% / 50%;
+      background: #fb3;
+    }
+
+    .verti-half-ellipse-right {
+      width: 100px;
+      height: 100px;
+      border-radius: 0 100% 100% 0 / 50%;
+      background: #fb3;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h3>沿横轴劈开的半椭圆-上半部分</h1>
+    <div class="hori-half-ellipse-top"></div>
+    <h3>沿横轴劈开的半椭圆-下半部分</h3>
+    <div class="hori-half-ellipse-bottom"></div>
+    <h3>沿纵轴劈开的半椭圆-左半部分</h3>
+    <div class="verti-half-ellipse-left"></div>
+    <h3>沿纵轴劈开的半椭圆-左半部分</h3>
+    <div class="verti-half-ellipse-right"></div>
+  </div>
+</body>
+</html>
